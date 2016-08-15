@@ -1,0 +1,17 @@
+{
+  "name": "testmodule",
+  "version": "0.0.1",
+  "description": "This plugin will add the functionality of finding the disk space available in the Pi. (This plugin will be downloaded to the Pi when the Pi asks for it)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "diskspace"
+  ],
+  "author": "Saurabh Kirtani <saurabhkirtani@gmail.com>",
+  "license": "ISC",
+"dependencies": {
+    "diskusage": "^0.1.5"
+  }
+}
